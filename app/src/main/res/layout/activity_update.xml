@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/installed_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Installiert: --" />
+
+    <TextView
+        android:id="@+id/update_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update-Status" />
+
+    <Button
+        android:id="@+id/choose_apk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APK wählen" />
+
+    <Button
+        android:id="@+id/install_apk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Installieren" />
+
+    <Button
+        android:id="@+id/update_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zurück" />
+</LinearLayout>
